@@ -1,0 +1,27 @@
+# Block source and sensitive files in this release-only repo
+**/*.ts
+**/*.tsx
+**/*.js
+**/*.jsx
+**/*.vue
+**/*.py
+**/*.java
+**/*.cs
+**/*.go
+**/*.rs
+**/*.php
+**/*.rb
+**/*.json
+**/*.yml
+**/*.yaml
+**/*.env
+**/*.pem
+**/*.key
+**/*.p12
+**/*.crt
+**/node_modules/
+
+# Allow explicit release artifacts
+!myBooks.exe
+!SHA256SUMS.txt
+!README.md
